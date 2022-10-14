@@ -21,7 +21,7 @@ pipeline {
                 }
                 sh 'terraform init -input=false'
                     
-                sh 'terraform apply -input=false'
+                sh 'terraform apply -auto-approve'
             }
         }
 
