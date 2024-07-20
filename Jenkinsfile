@@ -4,8 +4,8 @@ pipeline {
 
     
     environment {
-        AWS_ACCESS_KEY_ID     = credentials('AWS_ACCESS_KEY_ID')
-        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
+        AWS_ACCESS_KEY_ID     = "AKIA3V6GUJW5TV3A3CVO"
+        AWS_SECRET_ACCESS_KEY = "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"
         TF_IN_AUTOMATION      = '1'
     }
 
